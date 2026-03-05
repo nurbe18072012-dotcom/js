@@ -1,4 +1,4 @@
-var method = prompt("Metod nomini yozing: length, toString, at, join, pop, push, shift, unshift, isArray, delete, concat, flat, slice, splice, toSpliced");
+var method = prompt("Metod nomini yozing: length, toString, at, join, pop, push, shift, unshift, isArray, delete, concat.");
 
 var arr = ["apple", "banana", "orange"];
 
@@ -58,7 +58,7 @@ else if(method === "concat"){
     console.log(newArr);
 }
 
-else if(method === "flat"){
+/*else if(method === "flat"){
     var a = [1,[2,3],[4,5]];
     console.log(a.flat());
 }
@@ -80,7 +80,7 @@ else if(method === "toSpliced"){
     var index = prompt("Qaysi indexdan uchirsin?");
     var count = prompt("Nechta uchirsin?");
     console.log(arr.toSpliced(index,count));
-}
+}*/
 
 else{
     console.log("Bunday metod yuq");
